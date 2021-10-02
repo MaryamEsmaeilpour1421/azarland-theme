@@ -1,0 +1,44 @@
+.sliderContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(28rem , 1fr,1fr));
+    gap: 1rem;
+    direction: ltr;
+    margin-top: 10px;
+}
+
+.mainSlider{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.slider{
+    width: 450px;
+    border-radius: .5rem;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.smallBannerContainer{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.images{
+    flex-grow: 1;
+    border-radius: .5rem;
+    margin: 5px;
+}
